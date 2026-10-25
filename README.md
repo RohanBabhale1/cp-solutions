@@ -6,7 +6,7 @@ My accepted solutions from LeetCode, Codeforces, AtCoder, CSES and more.
 
 Synced automatically by SolveSync.
 
-**Total solved:** 456
+**Total solved:** 457
 
 ## Codeforces
 
@@ -25,7 +25,7 @@ Solutions by RohanBabhale1, organized by difficulty rating.
 
 Solutions organized by primary topic folder.
 
-**Solved:** 200
+**Solved:** 201
 
 | Topic | Solved |
 | --- | --- |
@@ -38,7 +38,7 @@ Solutions organized by primary topic folder.
 | hash-table | 17 |
 | linked-list | 6 |
 | math | 51 |
-| misc | 11 |
+| misc | 12 |
 | stack | 1 |
 | string | 17 |
 | tree | 5 |
