@@ -1,51 +1,49 @@
-
 class Solution {
 public:
-    typedef pair<int, pair<int, int>> pp;
+    int trapRainWater(vector<vector<int>>& heightMap) {
+        priority_queue<pair<int, pair<int, int>>, 
+                       vector<pair<int, pair<int, int>>>, 
+                       greater<pair<int, pair<int, int>>>> pq;
+        int m = heightMap.size();
+        int n = heightMap[0].size();
+        if (m <= 2 || n <= 2) return 0;
 
-    int trapRainWater(vector<vector<int>>& h) {
-        int n = h.size(), m = h[0].size();
+        vector<vector<bool>> visited(m, vector<bool>(n, false));
 
-        priority_queue<pp, vector<pp>, greater<>> pq;
-        vector<vector<bool>> vis(n, vector<bool>(m, false));
-
-        // Add boundary cells
-        for (int i = 0; i < n; i++) {
-            pq.push({h[i][0], {i, 0}});
-            pq.push({h[i][m - 1], {i, m - 1}});
-            vis[i][0] = vis[i][m - 1] = true;
+        for (int i = 0; i < m; ++i) {
+            for (int j = 0; j < n; ++j) {
+                if (i == 0 || i == m - 1 || j == 0 || j == n - 1) {
+                    pq.push({heightMap[i][j], {i, j}});
+                    visited[i][j] = true;
+                }
+            }
         }
-
-        for (int j = 1; j < m - 1; j++) {
-            pq.push({h[0][j], {0, j}});
-            pq.push({h[n - 1][j], {n - 1, j}});
-            vis[0][j] = vis[n - 1][j] = true;
-        }
-
-        int ans = 0;
-        int dr[] = {-1, 0, 1, 0};
-        int dc[] = {0, -1, 0, 1};
-
+        int totalWater = 0;
+        int directions[4][2] = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
         while (!pq.empty()) {
-            auto [height, pos] = pq.top();
+            auto [h, cell] = pq.top();
             pq.pop();
 
-            int r = pos.first, c = pos.second;
+            int r = cell.first;
+            int c = cell.second;
 
-            for (int i = 0; i < 4; i++) {
-                int nr = r + dr[i], nc = c + dc[i];
+            // Explore 4-directional neighbors
+            for (auto& dir : directions) {
+                int nr = r + dir[0];
+                int nc = c + dir[1];
 
-                if (nr < 0 || nr >= n || nc < 0 || nc >= m ||
-                    vis[nr][nc])
-                    continue;
+                if (nr >= 0 && nr < m && nc >= 0 && nc < n && !visited[nr][nc]) {
+                    visited[nr][nc] = true;
 
-                vis[nr][nc] = true;
-                ans += max(0, height - h[nr][nc]);
+                    // Trapped water is the difference between current boundary height and neighbor height
+                    totalWater += max(0, h - heightMap[nr][nc]);
 
-                pq.push({max(height, h[nr][nc]), {nr, nc}});
+                    // Effective height carried forward is max(current boundary height, neighbor original height)
+                    pq.push({max(h, heightMap[nr][nc]), {nr, nc}});
+                }
             }
         }
 
-        return ans;
+        return totalWater;
     }
 };
