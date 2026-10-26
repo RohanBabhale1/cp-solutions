@@ -8,7 +8,7 @@
 
 | Language | Runtime | Memory | Date | Submission |
 | --- | --- | --- | --- | --- |
-| [C++23 (GCC 14-64, msys2)](./solution.cpp) | 250 ms | 3000 KB | 2026-10-07 | [link](https://codeforces.com/contest/2275/submission/393584656) |
+| [C++23 (GCC 14-64, msys2)](./solution.cpp) | 62 ms | 3000 KB ⇪ sync | 2026-10-26 | [link](https://codeforces.com#) |
 
 ## Problem
 

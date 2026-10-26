@@ -29,6 +29,7 @@ int subcount = 219;
 #define all(x) (x).begin(), (x).end()
 
 int main() {
+    baseIO();
     int T;
     cin >> T;
 
