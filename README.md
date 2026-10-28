@@ -29,14 +29,14 @@ Solutions organized by primary topic folder.
 
 | Topic | Solved |
 | --- | --- |
-| array | 86 |
+| array | 87 |
 | binary-search | 1 |
 | database | 1 |
 | design | 1 |
 | divide-and-conquer | 1 |
 | dynamic-programming | 2 |
 | hash-table | 17 |
-| linked-list | 7 |
+| linked-list | 6 |
 | math | 51 |
 | misc | 15 |
 | stack | 1 |
@@ -196,5 +196,5 @@ Solutions from Repovive contests and practice.
 | contest-28 | 3 |
 | contest-29 | 4 |
 
-*Last updated: 2026-10-27*
+*Last updated: 2026-10-28*
 <!-- solvesync:end -->
