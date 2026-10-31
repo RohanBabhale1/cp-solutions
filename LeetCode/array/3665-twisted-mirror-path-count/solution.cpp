@@ -1,6 +1,6 @@
 class Solution {
-    static constexpr int mat[2][2][2] = {{{1, 1}, {1, 1}}, {{0, 1}, {1, 0}}};
-    static constexpr int MOD = 1000000007;
+    static inline const int mat[2][2][2] = {{{1, 1}, {1, 1}}, {{0, 1}, {1, 0}}};
+    int MOD = 1000000007;
 
 public:
     int uniquePaths(auto& A) {
