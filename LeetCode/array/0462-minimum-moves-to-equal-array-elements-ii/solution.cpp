@@ -1,10 +1,12 @@
 class Solution {
 public:
     int minMoves2(vector<int>& nums) {
-        auto mid = nums.begin() + nums.size() / 2;
-        ranges::nth_element(nums, mid);
-        int med = *mid, moves = 0;
-        for (int x : nums) moves += abs(x - med);
-        return moves;
+        int n = nums.size(), steps = 0;
+        sort(nums.begin(), nums.end());
+        int median = nums[n/2]; 
+        for(int i=0; i<n; i++){
+            steps += abs(nums[i] - median); 
+        }
+        return steps;
     }
 };
