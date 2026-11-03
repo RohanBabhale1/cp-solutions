@@ -6,7 +6,7 @@ My accepted solutions from LeetCode, Codeforces, AtCoder, CSES and more.
 
 Synced automatically by SolveSync.
 
-**Total solved:** 494
+**Total solved:** 495
 
 ## Codeforces
 
@@ -58,7 +58,7 @@ Solutions from the CSES Problem Set, organized by section.
 
 Solutions organized by difficulty rating.
 
-**Solved:** 230
+**Solved:** 231
 
 | Difficulty | Solved |
 | --- | --- |
@@ -171,7 +171,7 @@ Solutions organized by difficulty rating.
 | 1975 | 1 |
 | 1991 | 1 |
 | 2316 | 1 |
-| Unrated | 109 |
+| Unrated | 110 |
 
 ## AtCoder
 
