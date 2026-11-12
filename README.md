@@ -6,20 +6,20 @@ My accepted solutions from LeetCode, Codeforces, AtCoder, CSES and more.
 
 Synced automatically by SolveSync.
 
-**Total solved:** 532
+**Total solved:** 533
 
 ## Codeforces
 
 Solutions by RohanBabhale1, organized by difficulty rating.
 
-**Solved:** 22
+**Solved:** 23
 
 | Difficulty | Solved |
 | --- | --- |
 | 800 | 6 |
 | 1000 | 2 |
 | 1100 | 2 |
-| Unrated | 12 |
+| Unrated | 13 |
 
 ## LeetCode
 
