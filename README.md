@@ -12,24 +12,24 @@ Synced automatically by SolveSync.
 
 Solutions by RohanBabhale1, organized by difficulty rating.
 
-**Solved:** 28
+**Solved:** 27
 
 | Difficulty | Solved |
 | --- | --- |
 | 800 | 6 |
 | 1000 | 2 |
 | 1100 | 2 |
-| Unrated | 18 |
+| Unrated | 17 |
 
 ## LeetCode
 
 Solutions organized by primary topic folder.
 
-**Solved:** 233
+**Solved:** 234
 
 | Topic | Solved |
 | --- | --- |
-| array | 101 |
+| array | 102 |
 | binary-search | 1 |
 | database | 1 |
 | design | 1 |
@@ -196,5 +196,5 @@ Solutions from Repovive contests and practice.
 | contest-28 | 3 |
 | contest-29 | 4 |
 
-*Last updated: 2026-11-13*
+*Last updated: 2026-11-14*
 <!-- solvesync:end -->
