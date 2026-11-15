@@ -6,30 +6,30 @@ My accepted solutions from LeetCode, Codeforces, AtCoder, CSES and more.
 
 Synced automatically by SolveSync.
 
-**Total solved:** 539
+**Total solved:** 542
 
 ## Codeforces
 
 Solutions by RohanBabhale1, organized by difficulty rating.
 
-**Solved:** 27
+**Solved:** 29
 
 | Difficulty | Solved |
 | --- | --- |
 | 800 | 6 |
 | 1000 | 2 |
 | 1100 | 2 |
-| Unrated | 17 |
+| Unrated | 19 |
 
 ## LeetCode
 
 Solutions organized by primary topic folder.
 
-**Solved:** 234
+**Solved:** 235
 
 | Topic | Solved |
 | --- | --- |
-| array | 102 |
+| array | 103 |
 | binary-search | 1 |
 | database | 1 |
 | design | 1 |
@@ -196,5 +196,5 @@ Solutions from Repovive contests and practice.
 | contest-28 | 3 |
 | contest-29 | 4 |
 
-*Last updated: 2026-11-14*
+*Last updated: 2026-11-15*
 <!-- solvesync:end -->
