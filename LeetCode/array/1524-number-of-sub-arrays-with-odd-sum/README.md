@@ -8,7 +8,7 @@
 
 | Language | Runtime | Memory | Date | Submission |
 | --- | --- | --- | --- | --- |
-| [C++](./solution.cpp) | 2 ms | 111.7 MB | 2026-11-15 | [link](https://leetcode.com/submissions/detail/2196257838/) |
+| [C++](./solution.cpp) | 3 ms | 111.9 MB | 2026-11-15 | [link](https://leetcode.com/submissions/detail/2196257940/) |
 
 ## Problem
 
