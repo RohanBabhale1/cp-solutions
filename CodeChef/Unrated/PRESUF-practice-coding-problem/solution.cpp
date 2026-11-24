@@ -19,7 +19,7 @@ typedef set<char> sc;
 #define f first
 #define s second
 #define sp <<" "<<
-#define MOD 998244353
+#define MOD 1000000007
 #define PI 3.1415926535897932384626433832795
 #define all(a) (a).begin(),(a).end()
 #define rall(a) (a).rbegin(),(a).rend()
